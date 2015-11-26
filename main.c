@@ -8,11 +8,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "HashTable.h"
 /*
  * 
  */
 int main(int argc, char** argv) {
-
+    puts("Hola Mundo");
     return (EXIT_SUCCESS);
 }
 

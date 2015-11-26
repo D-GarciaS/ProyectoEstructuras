@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>HashTable.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +13,12 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>HashTable.c</itemPath>
+      <itemPath>List.c</itemPath>
+      <itemPath>List.h</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>Set.c</itemPath>
+      <itemPath>Set.h</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -26,6 +33,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../Downloads/Sesion22</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
@@ -36,6 +46,20 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="HashTable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="HashTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Set.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Set.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -59,6 +83,20 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="HashTable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="HashTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Set.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Set.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
