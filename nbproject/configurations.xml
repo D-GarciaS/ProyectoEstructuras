@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="94">
+<configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>HashTable.h</itemPath>
+      <itemPath>List.h</itemPath>
+      <itemPath>Set.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,10 +17,8 @@
                    projectFiles="true">
       <itemPath>HashTable.c</itemPath>
       <itemPath>List.c</itemPath>
-      <itemPath>List.h</itemPath>
       <itemPath>Makefile</itemPath>
       <itemPath>Set.c</itemPath>
-      <itemPath>Set.h</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
