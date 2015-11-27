@@ -13,7 +13,7 @@
 typedef struct strHash* HashTable;
 typedef void* Type;
 typedef int (*hashcodeFunc) (Type);
-Bool(*equalsFunc) (Type, Type);
+typedef Bool(*equalsFunc) (Type, Type);
 
 HashTable hashtable_create(int capacity, hashcodeFunc, equalsFunc);
 void hashtable_destroy(HashTable);
